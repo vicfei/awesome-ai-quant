@@ -76,6 +76,10 @@
 | 平台 | ★ | 角色 |
 |---|---:|---|
 | [qlib](https://github.com/microsoft/qlib)（微软） | 50k | 统治级 AI 量化平台：数据管线、模型训练、回测、RL 支持 |
+| [backtrader](https://github.com/mementum/backtrader) | 24k* | Python 回测库 |
+| [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | 事件驱动回测，Quantopian 血统 |
+
+*Star 数为近似值，以链接页为准。
 
 ## AI 量化数据
 
@@ -89,6 +93,7 @@
 
 | 资源 | 覆盖 |
 |---|---|
+| [QOBLIB](https://github.com/ZIB-AOPT/QOBLIB)（59★） | 量子优化基准套件——组合优化是其十大问题类之一（注意：量子计算，非量化金融） |
 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 经典组合优化（均值-方差、Black-Litterman、风险平价） |
 | [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | 组合风险分析与优化 |
 
