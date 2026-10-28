@@ -88,7 +88,7 @@ The infrastructure layer every AI-quant project builds on.
 | Platform | ★ | Role |
 |---|---:|---|
 | [qlib](https://github.com/microsoft/qlib) (Microsoft) | 50k | The dominant AI-quant platform: data pipeline, model training, backtesting, RL support |
-| [backtrader](https://github.com/mementum/backtrader) | 14k* | Python backtesting library |
+| [backtrader](https://github.com/mementum/backtrader) | 24k* | Python backtesting library |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | Event-driven backtesting, Quantopian heritage |
 
 *Star counts approximate; check links for current.
