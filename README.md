@@ -28,6 +28,7 @@ Different from existing lists:
 - [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
 - [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
 - [Papers](#papers) — key papers at the AI × finance intersection
+- [Insurance Asset Management](#insurance-asset-management) — 保险资管: the buy-side domain where quant constraints come from
 - [Chinese Ecosystem](#chinese-ecosystem) — 中文资源
 
 ---
@@ -119,6 +120,32 @@ The infrastructure layer every AI-quant project builds on.
 | [RD-Agent(Q): Automated factor-model co-optimization](https://arxiv.org/abs/2505.15155) | 2025-05 | First data-centric multi-agent framework for quant; $10 cost 2× ARR |
 | [LimiX-2: Structured-data foundation model with causal awareness](https://arxiv.org/abs/2609.17488) | 2026-09 | Joint modeling p(x,y\|context); BCCO credit-scoring #1 |
 | [TabPFN: Accurate predictions on small data](https://arxiv.org/abs/2504.05341) | 2025-04 (Nature) | Tabular foundation model, in-context learning |
+
+## Insurance Asset Management
+
+保险资管 — the largest institutional pool in China's fixed-income market (38T+ CNY) and the natural employer domain for quant engineers on the buy side. Its allocation is constraint-driven, not forecast-driven: account structure sets the liability, ALM/SAA/TAA set the playbook. The [study map](notes/insurance-asset-management.md) distills the full series below (source: WeChat account 漫绘资管; links may require WeChat client).
+
+**Reading path** — six articles, in dependency order:
+
+| Article | Core idea |
+|---|---|
+| [保险资管到底是什么？管的是谁的钱](https://mp.weixin.qq.com/s/fWXBEu5hbrk9_0LRWCBZCA) | Three money sources: ~70% intra-group insurance funds, ~18% third-party (banks, pensions), plus insurance AM products — institutions only, no retail |
+| [头部三家到底谁强](https://mp.weixin.qq.com/s/XEell8r8rZXMppLU0PLPBw) | China Life AM wins by parent, Ping An AM by platform, Taikang AM by market capability (2.8T third-party, ~40% of all industry-external funds) |
+| [怎么赚钱？和公募不是一个生意](https://mp.weixin.qq.com/s/WTdzFTqT1EpoXLFCIcNR5A) | 38T managed at 9.68bp average fee, ~45% net margin, top-3 take 58% of industry profit — a scale business, not a fee-rate business |
+| [账户内部构成：传统、分红、万能](https://mp.weixin.qq.com/s/wQ4PPc1CKcO3RHBflSUGig) | Guaranteed rates 2.0%/1.75%/1.0% set liability rigidity; rigidity ranks traditional > participating > universal, and decides what each pool may buy (e.g. high-dividend stocks into OCI) |
+| [SAA 和 TAA](https://mp.weixin.qq.com/s/usYoK_EUT7MCPe-HfdniMw) | Allocation starts from the liability, not the market; SAA sets the anchor under solvency/duration-coverage constraints, TAA moves inside the band |
+| [为什么险资天然爱买长债（ALM）](https://mp.weixin.qq.com/s/RaDsV095pRIxPlGWUqEEfw) | Liability duration 13–16y vs asset ~5.6y; the new ±5y duration-gap rule makes ultra-long bonds a structural need, not a view |
+
+**Products, ops & AI**:
+
+| Article | Core idea |
+|---|---|
+| [一文看懂什么是保险资管产品](https://mp.weixin.qq.com/s/PmWvrb9W8dRTURl8Qp9Nlg) | Debt/equity investment plans and portfolio products: private-placement trust structure, full lifecycle with the systems behind each stage |
+| [漫绘资管业务-保险资管产品](https://mp.weixin.qq.com/s/nF-mQgLaD17mDpASECNUrw) | Illustrated companion to the article above (comic-form walkthrough) |
+| [一文看懂资产管理公司业务体系](https://mp.weixin.qq.com/s/5FPwtSgTlkzG_F6bK-D68g) | Generic AM value chain: fundraising → investing → post-investment → exit, with front/middle/back office mapping |
+| [一文看懂资产管理公司技术体系](https://mp.weixin.qq.com/s/GPWIvh_gxPEEplsPdAYcRQ) | The systems stack (research/trading/risk/valuation) and vendor landscape an engineer joining an AM firm meets on day one |
+| [大资管运营智能化转型之路](https://mp.weixin.qq.com/s/0bgCTKQbNhUXNs78nwIdMw) | From process automation to cognitive automation: SOPs decomposed into atomic skills, agents as the new orchestration layer |
+| [当资管运营遇见 Claude Code](https://mp.weixin.qq.com/s/tkkYtntrVa28P1vkb97D-w) | Six hands-on agent scenarios (report reconciliation 2 days → 10s, browser automation for ops forms, PPT/scraping/skill factories) — the AI-engineer angle on this industry |
 
 ## Chinese Ecosystem
 

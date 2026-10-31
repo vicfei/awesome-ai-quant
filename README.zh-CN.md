@@ -26,6 +26,7 @@
 - [AI 量化数据](#ai-量化数据)——兼容这些工具的数据集
 - [风险与组合](#风险与组合)——优化、风险模型、仓位
 - [论文](#论文)——AI × 金融交叉领域关键论文
+- [保险资管](#保险资管)——买方约束的来源，量化固收的最大机构场景
 - [中文生态](#中文生态)
 
 ---
@@ -107,6 +108,32 @@
 | [RD-Agent(Q)](https://arxiv.org/abs/2505.15155) | 2025-05 | 首个数据中心多 Agent 量化框架；$10 成本 2× ARR |
 | [LimiX-2](https://arxiv.org/abs/2609.17488) | 2026-09 | 联合建模 + 因果感知；BCCO 信用评分第一 |
 | [TabPFN](https://arxiv.org/abs/2504.05341) | 2025-04 (Nature) | 表格基础模型，上下文学习 |
+
+## 保险资管
+
+保险资管是中国固收市场最大的机构资金池（38 万亿+），也是量化工程师进入买方的天然雇主场景。它的配置是约束驱动而非预测驱动：账户结构决定负债，ALM/SAA/TAA 决定打法。完整的[学习地图](notes/insurance-asset-management.md)提炼自下面这个系列（来源：公众号"漫绘资管"，微信内打开）。
+
+**主线阅读**——六篇，按依赖顺序：
+
+| 文章 | 一句话内核 |
+|---|---|
+| [保险资管到底是什么？管的是谁的钱](https://mp.weixin.qq.com/s/fWXBEu5hbrk9_0LRWCBZCA) | 三种资金来源：系统内保险资金约七成、第三方（银行/养老金）约 18%、保险资管产品——只对机构，没有散户 |
+| [国寿、平安、泰康，头部三家谁强](https://mp.weixin.qq.com/s/XEell8r8rZXMppLU0PLPBw) | 国寿强在母体、平安强在平台、泰康强在市场化（第三方 2.8 万亿，占全行业业外资金约四成） |
+| [怎么赚钱？和公募不是一个生意](https://mp.weixin.qq.com/s/WTdzFTqT1EpoXLFCIcNR5A) | 38 万亿盘子平均费率 9.68bp、净利率约 45%、前三家拿走全行业 58% 净利——赚规模的钱，不是费率的钱 |
+| [账户内部构成：传统、分红、万能](https://mp.weixin.qq.com/s/wQ4PPc1CKcO3RHBflSUGig) | 预定利率 2.0%/1.75%/1.0% 决定负债刚性：传统 > 分红 > 万能，刚性决定每个池子能买什么（高股息进 OCI 的逻辑） |
+| [SAA 和 TAA](https://mp.weixin.qq.com/s/usYoK_EUT7MCPe-HfdniMw) | 配置起点是负债不是市场；SAA 在偿付能力/久期/覆盖率约束下定锚，TAA 在带内微调 |
+| [为什么险资天然爱买长债（ALM）](https://mp.weixin.qq.com/s/RaDsV095pRIxPlGWUqEEfw) | 负债久期 13–16 年 vs 资产约 5.6 年；久期缺口 ±5 年新规下，超长债是结构性需求而非观点 |
+
+**产品、运营与 AI**：
+
+| 文章 | 一句话内核 |
+|---|---|
+| [一文看懂什么是保险资管产品](https://mp.weixin.qq.com/s/PmWvrb9W8dRTURl8Qp9Nlg) | 债权/股权投资计划与组合类产品：私募信托结构、全生命周期六环节及每环节背后的系统 |
+| [漫绘资管业务-保险资管产品](https://mp.weixin.qq.com/s/nF-mQgLaD17mDpASECNUrw) | 上文的图解版（漫画形式走一遍业务流程） |
+| [一文看懂资产管理公司业务体系](https://mp.weixin.qq.com/s/5FPwtSgTlkzG_F6bK-D68g) | 通用资管价值链：募集→投资→投后→退出，前中后台分工全图 |
+| [一文看懂资产管理公司技术体系](https://mp.weixin.qq.com/s/GPWIvh_gxPEEplsPdAYcRQ) | 投研/交易/风控/估值系统栈与供应商版图——工程师入职资管公司第一天见到的东西 |
+| [大资管运营智能化转型之路](https://mp.weixin.qq.com/s/0bgCTKQbNhUXNs78nwIdMw) | 从流程自动化到认知自动化：SOP 拆成原子 Skill，Agent 成为新的编排层 |
+| [当资管运营遇见 Claude Code](https://mp.weixin.qq.com/s/tkkYtntrVa28P1vkb97D-w) | 六个 agent 实战场景（报告比对 2 天→10 秒、表单自动化、PPT/爬虫/技能工厂）——AI 工程师切入这个行业最直接的角度 |
 
 ## 中文生态
 
