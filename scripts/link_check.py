@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 URL_RE = re.compile(r"https?://[^\s<>\")\]`]+")
-SKIP_HOSTS = ("img.shields.io",)
+SKIP_HOSTS = ("img.shields.io", "mp.weixin.qq.com")  # WeChat caps non-browser HEAD requests with a 302
 
 
 def markdown_files() -> list[Path]:
