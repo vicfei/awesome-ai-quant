@@ -23,7 +23,7 @@ Different from existing lists:
 - [Trading Agents](#trading-agents) — multi-agent frameworks that trade
 - [Factor Discovery with AI](#factor-discovery-with-ai) — LLM-driven alpha mining
 - [Decision Models × Finance](#decision-models--finance) — typed questions in markets
-- [Tabular Foundation Models × Finance](#tabular-foundation-models--finance) — ICL for tabular financial data
+- [Foundation Models × Finance](#foundation-models--finance) — ICL for tabular data + generation for K-line sequences
 - [Quant Platforms](#quant-platforms) — the infrastructure layer
 - [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
 - [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
@@ -69,17 +69,18 @@ Typed questions (Choice/Score/Noul) applied to financial judgments — the quest
 
 **Why this matters for quant**: financial decisions are high-frequency small judgments ("is this signal?", "how strong is the evidence?", "what regime?") — exactly the shape decision models optimize for. Calibration (0.7 = 7 out of 10 correct) maps directly to position sizing.
 
-## Tabular Foundation Models × Finance
+## Foundation Models × Finance
 
-Foundation models that do in-context learning on tabular data — no training, just read your table and predict.
+Foundation models pre-trained on financial data: tabular FMs predict in-context from a table; sequence FMs generate future K-line paths.
 
 | Model | ★ / org | What it does | Financial tasks |
 |---|---|---|---|
+| [Kronos](https://github.com/shiyu-coder/Kronos) | 44k, Tsinghua (AAAI 2026) | First open-source K-line foundation model: OHLCV quantized into hierarchical tokens + autoregressive Transformer, pre-trained across 45 exchanges; 4M–102M open weights | Probabilistic candle-path forecasting (multi-path sampling); official finetune + backtest pipeline runs on qlib |
 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.3k, Prior Labs | Original tabular FM; v3.5 with row-wise + cross-row attention; CPU ≤5k samples | Credit scoring, churn, any small-tabular classification |
 | [LimiX-2](https://github.com/limix-ldm-ai/LimiX) | 4.4k, StableAI | Joint modeling p(x,y\|context); causal awareness (feature attention recovers causal skeleton) | Credit scoring (BCCO benchmark #1), imputation, feature causal analysis |
 | [TabFM](https://github.com/google-research/tabfm) | 2.8k, Google Research | scikit-learn compatible; zero-shot cls/reg on mixed column types | Similar range; dual JAX/PyTorch backend |
 
-**The bridge**: financial feature matrices (factors × dates × tickers) are tabular data. Tabular FMs do in-context prediction without training — an alternative to LightGBM for small-sample factor synthesis. But they assume iid rows, so time-series dependence violates the core assumption (see [structured-state patterns](https://github.com/vicfei/awesome-jev-prompts/blob/main/categories/structured-state-patterns.md) for when to route to which paradigm).
+**The bridge**: financial feature matrices (factors × dates × tickers) are tabular data. Tabular FMs do in-context prediction without training — an alternative to LightGBM for small-sample factor synthesis. But they assume iid rows, so time-series dependence violates the core assumption (see [structured-state patterns](https://github.com/vicfei/awesome-jev-prompts/blob/main/categories/structured-state-patterns.md) for when to route to which paradigm). Kronos answers from the opposite side: instead of flattening time into rows, it generates future K-line paths — the generative route, with an official finetune pipeline built on qlib data.
 
 ## Quant Platforms
 
