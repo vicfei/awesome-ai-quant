@@ -18,22 +18,6 @@ Different from existing lists:
 
 ---
 
-## Contents
-
-- [Leaderboard](#leaderboard) — weekly CI-updated star rankings
-- [Trading Agents](#trading-agents) — multi-agent frameworks that trade
-- [Factor Discovery with AI](#factor-discovery-with-ai) — LLM-driven alpha mining
-- [Decision Models × Finance](#decision-models--finance) — typed questions in markets
-- [Foundation Models × Finance](#foundation-models--finance) — ICL for tabular data + generation for K-line sequences
-- [Quant Platforms](#quant-platforms) — the infrastructure layer
-- [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
-- [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
-- [Papers](#papers) — key papers at the AI × finance intersection
-- [Insurance Asset Management](#insurance-asset-management) — 保险资管: the buy-side domain where quant constraints come from
-- [Chinese Ecosystem](#chinese-ecosystem) — 中文资源
-
----
-
 ## Leaderboard
 
 <!-- BEGIN: leaderboard -->
@@ -69,6 +53,25 @@ _Auto-updated weekly by CI · last run 2026-11-02 · weekly Δ compares against 
 | 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | +0 | 6.1k |
 | 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | +0 | 5.7k |
 <!-- END: leaderboard -->
+
+## Contents
+
+- [Leaderboard](#leaderboard) — weekly CI-updated star rankings
+- [Trading Agents](#trading-agents) — multi-agent frameworks that trade
+- [Factor Discovery with AI](#factor-discovery-with-ai) — LLM-driven alpha mining
+- [Decision Models × Finance](#decision-models--finance) — typed questions in markets
+- [Foundation Models × Finance](#foundation-models--finance) — ICL for tabular data + generation for K-line sequences
+- [Quant Platforms](#quant-platforms) — the infrastructure layer
+- [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
+- [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
+- [Papers](#papers) — key papers at the AI × finance intersection
+- [Insurance Asset Management](#insurance-asset-management) — 保险资管: the buy-side domain where quant constraints come from
+- [Chinese Ecosystem](#chinese-ecosystem) — 中文资源
+
+---
+
+
+
 
 ## Trading Agents
 
