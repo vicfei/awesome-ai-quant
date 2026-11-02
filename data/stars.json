@@ -1,0 +1,24 @@
+{
+ "updated": "2026-11-02",
+ "repos": {
+  "HKUDS/Vibe-Trading": 37406,
+  "PriorLabs/TabPFN": 8343,
+  "QuantaAlpha/QuantaAlpha": 1641,
+  "RndmVariableQ/AlphaAgent": 428,
+  "StartLuxLabs/Startlux-Decision": 1633,
+  "TauricResearch/TradingAgents": 119693,
+  "ZIB-AOPT/QOBLIB": 60,
+  "dcajasn/Riskfolio-Lib": 4581,
+  "google-research/tabfm": 2827,
+  "limix-ldm-ai/LimiX": 4403,
+  "mementum/backtrader": 23635,
+  "microsoft/RD-Agent": 15181,
+  "microsoft/qlib": 49926,
+  "robertmartin8/PyPortfolioOpt": 6140,
+  "shiyu-coder/Kronos": 45610,
+  "stefan-jansen/zipline-reloaded": 1996,
+  "thuquant/awesome-quant": 5704,
+  "vicfei/awesome-jev-prompts": 11,
+  "virattt/ai-hedge-fund": 64428
+ }
+}

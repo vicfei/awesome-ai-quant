@@ -18,6 +18,7 @@
 
 ## 目录
 
+- [排行榜](#排行榜)——CI 周更的星数榜
 - [交易 Agent](#交易-agent)——多 Agent 框架做交易决策
 - [LLM 因子挖掘](#llm-因子挖掘)——用 LLM 挖 alpha
 - [决策模型 × 金融](#决策模型--金融)——市场中的类型化问题
@@ -30,6 +31,42 @@
 - [中文生态](#中文生态)
 
 ---
+
+## 排行榜
+
+<!-- BEGIN: leaderboard -->
+_CI 每周自动更新 · 最近一次 2026-11-02 · 周增量相对上一次快照计算_
+
+**总星数 Top 10**
+
+| # | 项目 | ★ | 周增量 |
+|---|---|---:|---:|
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 119.7k | +1 |
+| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.4k | +0 |
+| 3 | [qlib](https://github.com/microsoft/qlib) | 49.9k | +0 |
+| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | 45.6k | +0 |
+| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37.4k | +0 |
+| 6 | [backtrader](https://github.com/mementum/backtrader) | 23.6k | +0 |
+| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | 15.2k | +0 |
+| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.3k | +0 |
+| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 6.1k | +0 |
+| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | 5.7k | +0 |
+
+**周增速 Top 10**
+
+| # | 项目 | 周增量 | ★ |
+|---|---|---:|---:|
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +1 | 119.7k |
+| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +0 | 64.4k |
+| 3 | [qlib](https://github.com/microsoft/qlib) | +0 | 49.9k |
+| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | +0 | 45.6k |
+| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +0 | 37.4k |
+| 6 | [backtrader](https://github.com/mementum/backtrader) | +0 | 23.6k |
+| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +0 | 15.2k |
+| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +0 | 8.3k |
+| 9 | [decision-model contract](https://github.com/vicfei/awesome-jev-prompts) | +0 | 11 |
+| 10 | [QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | +0 | 1.6k |
+<!-- END: leaderboard -->
 
 ## 交易 Agent
 
