@@ -21,37 +21,37 @@ Different from existing lists:
 ## Leaderboard
 
 <!-- BEGIN: leaderboard -->
-_Auto-updated weekly by CI · last run 2026-11-02 · weekly Δ compares against the previous snapshot._
+_Auto-updated weekly by CI · last run 2026-11-03 · weekly Δ compares against the previous snapshot._
 
 **Top 10 by total stars**
 
 | # | Project | ★ | Weekly Δ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 119.7k | +0 |
-| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.4k | +0 |
-| 3 | [qlib](https://github.com/microsoft/qlib) | 49.9k | +0 |
-| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | 45.6k | +0 |
-| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37.4k | +1 |
-| 6 | [backtrader](https://github.com/mementum/backtrader) | 23.6k | +0 |
-| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | 15.2k | +0 |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.3k | +0 |
-| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 6.1k | +0 |
-| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | 5.7k | +0 |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 120.2k | +496 |
+| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.5k | +27 |
+| 3 | [qlib](https://github.com/microsoft/qlib) | 50.0k | +42 |
+| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | 46.3k | +678 |
+| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 37.5k | +135 |
+| 6 | [backtrader](https://github.com/mementum/backtrader) | 23.7k | +18 |
+| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | 15.2k | +32 |
+| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.3k | +5 |
+| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 6.1k | +2 |
+| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | 5.7k | +4 |
 
 **Top 10 by weekly gain**
 
 | # | Project | Weekly Δ | ★ |
 |---|---|---:|---:|
-| 1 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +1 | 37.4k |
-| 2 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +0 | 119.7k |
-| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +0 | 64.4k |
-| 4 | [qlib](https://github.com/microsoft/qlib) | +0 | 49.9k |
-| 5 | [Kronos](https://github.com/shiyu-coder/Kronos) | +0 | 45.6k |
-| 6 | [backtrader](https://github.com/mementum/backtrader) | +0 | 23.6k |
-| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +0 | 15.2k |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +0 | 8.3k |
-| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | +0 | 6.1k |
-| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | +0 | 5.7k |
+| 1 | [Kronos](https://github.com/shiyu-coder/Kronos) | +678 | 46.3k |
+| 2 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +496 | 120.2k |
+| 3 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +135 | 37.5k |
+| 4 | [qlib](https://github.com/microsoft/qlib) | +42 | 50.0k |
+| 5 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +32 | 15.2k |
+| 6 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +27 | 64.5k |
+| 7 | [backtrader](https://github.com/mementum/backtrader) | +18 | 23.7k |
+| 8 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +12 | 1.6k |
+| 9 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +5 | 8.3k |
+| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | +4 | 5.7k |
 <!-- END: leaderboard -->
 
 ## Contents
