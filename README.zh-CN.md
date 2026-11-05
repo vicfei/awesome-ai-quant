@@ -14,6 +14,8 @@
 
 **本清单按 AI 工程师进入量化金融时遇到的任务组织**——每个板块回答"我的 AI 知识在这个领域对应什么"。
 
+> 姊妹仓：[dsh-plugin-atlas](https://github.com/vicfei/dsh-plugin-atlas)——DeepSeek Harness 插件生态活地图（1.3 万+ 条目、每日刷新星数与停更标记，含「金融与行情」垂直分类）。本清单是跨 harness 的学习路径；atlas 是今天就能装的插件地图。
+
 ---
 
 ## 排行榜

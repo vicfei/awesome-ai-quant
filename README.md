@@ -16,6 +16,8 @@ Different from existing lists:
 
 **This list is organized by the tasks an AI engineer encounters when entering quant finance** — and each section answers "what does my AI knowledge map to in this domain?"
 
+> Sister repo: [dsh-plugin-atlas](https://github.com/vicfei/dsh-plugin-atlas) — the live map of the DeepSeek Harness plugin ecosystem (13k+ entries, daily-refreshed stars/staleness, with a Finance & Markets vertical). This list is the cross-harness learning path; the atlas is where you find installable plugins today.
+
 ---
 
 ## Leaderboard
