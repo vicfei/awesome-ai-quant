@@ -122,6 +122,7 @@ _CI 每周自动更新 · 最近一次 2026-11-03 · 周增量相对上一次快
 | [qlib](https://github.com/microsoft/qlib)（微软） | 50k | 统治级 AI 量化平台：数据管线、模型训练、回测、RL 支持 |
 | [backtrader](https://github.com/mementum/backtrader) | 24k* | Python 回测库 |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | 事件驱动回测，Quantopian 血统 |
+| [TrustQuant](https://github.com/vicfei/trustquant) + [dsh-trustquant](https://github.com/vicfei/dsh-trustquant) | 0（新） | 面向 agent 的 oracle 钉死计算层：期权定价/组合优化/风险压力/EUR 曲线与互换，全部经 QuantLib 1.33 fixtures 验证；每个结果带机器可读单位、计算清单与同环境重放（摘要逐字节一致）。维护者自荐——收录的是"验证先行"的范式，不是星数 |
 
 *Star 数为近似值，以链接页为准。
 
