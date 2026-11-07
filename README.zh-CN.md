@@ -62,6 +62,7 @@ _CI 每周自动更新 · 最近一次 2026-11-03 · 周增量相对上一次快
 - [决策模型 × 金融](#决策模型--金融)——市场中的类型化问题
 - [基础模型 × 金融](#基础模型--金融)——表格上下文学习与 K 线序列生成
 - [量化平台](#量化平台)——基础设施层
+- [Agent 计算层](#agent-计算层)——框架之下的确定性、可验证计算（生态位地图）
 - [AI 量化数据](#ai-量化数据)——兼容这些工具的数据集
 - [风险与组合](#风险与组合)——优化、风险模型、仓位
 - [论文](#论文)——AI × 金融交叉领域关键论文
@@ -122,9 +123,21 @@ _CI 每周自动更新 · 最近一次 2026-11-03 · 周增量相对上一次快
 | [qlib](https://github.com/microsoft/qlib)（微软） | 50k | 统治级 AI 量化平台：数据管线、模型训练、回测、RL 支持 |
 | [backtrader](https://github.com/mementum/backtrader) | 24k* | Python 回测库 |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | 事件驱动回测，Quantopian 血统 |
-| [TrustQuant](https://github.com/vicfei/trustquant) + [dsh-trustquant](https://github.com/vicfei/dsh-trustquant) | 0（新） | 面向 agent 的 oracle 钉死计算层：期权定价/组合优化/风险压力/EUR 曲线与互换，全部经 QuantLib 1.33 fixtures 验证；每个结果带机器可读单位、计算清单与同环境重放（摘要逐字节一致）。维护者自荐——收录的是"验证先行"的范式，不是星数 |
 
 *Star 数为近似值，以链接页为准。
+
+## Agent 计算层
+
+框架之下的小生态位：agent 直接调用的确定性、可验证计算，而不是让模型猜数。人烟稀少——2026-11 的地图：
+
+| 项目 | ★ | 模式 | 验证主张 |
+|---|---:|---|---|
+| [TrustQuant](https://github.com/vicfei/trustquant) + [dsh-trustquant](https://github.com/vicfei/dsh-trustquant) | 0（新） | 本地优先 CLI/MCP/库，Apache-2.0 | QuantLib 1.33 金样例 + CI 内独立第二 oracle；逐次计算 manifest + 同环境重放；逐指标机器可读单位（维护者自荐——收录的是"验证先行"的范式，不是星数） |
+| [quantoracle](https://github.com/QuantOracledev/quantoracle) | 14 | 托管 API + MCP + CLI，免费额度后按调用付费（x402） | 63 个确定性计算器 + 10 个组合工作流，对教科书数值（Hull、Wilmott）"引用验证"，120 项基准 |
+| [tradingcalc-mcp](https://github.com/SKalinin909/tradingcalc-mcp) | 4 | 远程 streamable-HTTP MCP，免费 | 期权/外汇/风险/预测市场等 100 个工具；每条响应带 ECDSA 签名（可离线校验）+ 公开测试向量页 |
+| [rateslib](https://github.com/attack68/rateslib) | 370 | Python 库（非 agent 向） | 固收数值的可信度标杆——用来搭计算层的库 |
+
+生态位判读（2026-11）：需求是真的——已有两家托管服务在按调用收费变现——但还没有第二家做"本地优先 + oracle 血统"；同时上层的 agent 框架（见[交易 Agent](#交易-agent)：TradingAgents ★121k、ai-hedge-fund ★64k、Vibe-Trading ★38k）出的数要么自实现要么靠 LLM 猜。该空档的实测证据见 TrustQuant 的[裸 LLM vs oracle 实验](https://github.com/vicfei/trustquant/tree/main/essays/llm-numbers-vs-oracle)（80 题：答出的全部误差 <1%，但 32.5% 压根没答出来——整个 token 预算烧在手算正态 CDF 上）。
 
 ## AI 量化数据
 

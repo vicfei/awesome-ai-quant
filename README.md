@@ -64,6 +64,7 @@ _Auto-updated weekly by CI · last run 2026-11-03 · weekly Δ compares against 
 - [Decision Models × Finance](#decision-models--finance) — typed questions in markets
 - [Foundation Models × Finance](#foundation-models--finance) — ICL for tabular data + generation for K-line sequences
 - [Quant Platforms](#quant-platforms) — the infrastructure layer
+- [Agent Compute Layers](#agent-compute-layers) — deterministic, verifiable math for agents (the niche map)
 - [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
 - [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
 - [Papers](#papers) — key papers at the AI × finance intersection
@@ -134,9 +135,21 @@ The infrastructure layer every AI-quant project builds on.
 | [qlib](https://github.com/microsoft/qlib) (Microsoft) | 50k | The dominant AI-quant platform: data pipeline, model training, backtesting, RL support |
 | [backtrader](https://github.com/mementum/backtrader) | 24k* | Python backtesting library |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | Event-driven backtesting, Quantopian heritage |
-| [TrustQuant](https://github.com/vicfei/trustquant) + [dsh-trustquant](https://github.com/vicfei/dsh-trustquant) | 0 (new) | Oracle-pinned compute layer for agents: QuantLib-1.33-fixture-verified option pricing, portfolio optimization, risk/stress, EUR curves + swaps; every result carries machine-readable units, a calculation manifest and same-environment replay (digest-exact). Maintainer's own project — listed for the verification-first pattern, not the stars |
 
 *Star counts approximate; check links for current.
+
+## Agent Compute Layers
+
+The niche under the frameworks: deterministic, verifiable math that agents call instead of guessing. Sparsely populated — the map as of 2026-11:
+
+| Project | ★ | Model | Verification story |
+|---|---:|---|---|
+| [TrustQuant](https://github.com/vicfei/trustquant) + [dsh-trustquant](https://github.com/vicfei/dsh-trustquant) | 0 (new) | local-first CLI/MCP/library, Apache-2.0 | QuantLib-1.33 golden fixtures + independent in-house second oracle in CI; per-calculation manifest + same-environment replay; machine-readable units per metric (maintainer's own project — listed for the verification-first pattern, not the stars) |
+| [quantoracle](https://github.com/QuantOracledev/quantoracle) | 14 | hosted API + MCP + CLI; free tier then pay-per-call (x402) | 63 deterministic calculators + 10 composite workflows, citation-verified against textbook values (Hull, Wilmott), 120 benchmarks |
+| [tradingcalc-mcp](https://github.com/SKalinin909/tradingcalc-mcp) | 4 | remote streamable-HTTP MCP, free | 100 tools across options/forex/risk/prediction-markets; every response ECDSA-signed (offline-checkable) + public test-vector page |
+| [rateslib](https://github.com/attack68/rateslib) | 370 | Python library (not agent-facing) | the credibility benchmark for fixed-income numerics — a library to build compute layers on |
+
+Read of the niche (2026-11): the demand is real — two hosted services already monetize it — but nobody else is local-first with oracle lineage; meanwhile the agent frameworks above ([Trading Agents](#trading-agents): TradingAgents ★121k, ai-hedge-fund ★64k, Vibe-Trading ★38k) ship self-implemented or LLM-guessed numbers. For measured evidence of that gap, see TrustQuant's [raw-LLM vs oracle experiment](https://github.com/vicfei/trustquant/tree/main/essays/llm-numbers-vs-oracle) (80 questions: all answered prices within 1%, but 32.5% of answers never arrived — the entire token budget burned hand-computing the normal CDF).
 
 ## Data for AI Quant
 
