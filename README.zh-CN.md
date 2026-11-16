@@ -21,37 +21,37 @@
 ## 排行榜
 
 <!-- BEGIN: leaderboard -->
-_CI 每周自动更新 · 最近一次 2026-11-10 · 周增量相对上一次快照计算_
+_CI 每周自动更新 · 最近一次 2026-11-16 · 周增量相对上一次快照计算_
 
 **总星数 Top 10**
 
 | # | 项目 | ★ | 周增量 |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121.8k | +1626 |
-| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.6k | +159 |
-| 3 | [qlib](https://github.com/microsoft/qlib) | 50.2k | +225 |
-| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.5k | +1235 |
-| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.0k | +453 |
-| 6 | [backtrader](https://github.com/mementum/backtrader) | 23.7k | +57 |
-| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | 15.3k | +103 |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.4k | +63 |
-| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 6.2k | +17 |
-| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | 5.7k | +13 |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 122.8k | +988 |
+| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.5k | — |
+| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.7k | +95 |
+| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 56.9k | — |
+| 5 | [qlib](https://github.com/microsoft/qlib) | 50.3k | +131 |
+| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.9k | +361 |
+| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.4k | — |
+| 8 | [ccxt](https://github.com/ccxt/ccxt) | 44.9k | — |
+| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.4k | +372 |
+| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.6k | — |
 
 **周增速 Top 10**
 
 | # | 项目 | 周增量 | ★ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +1626 | 121.8k |
-| 2 | [Kronos](https://github.com/shiyu-coder/Kronos) | +1235 | 47.5k |
-| 3 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +453 | 38.0k |
-| 4 | [qlib](https://github.com/microsoft/qlib) | +225 | 50.2k |
-| 5 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +159 | 64.6k |
-| 6 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +103 | 15.3k |
-| 7 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +74 | 1.7k |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +63 | 8.4k |
-| 9 | [backtrader](https://github.com/mementum/backtrader) | +57 | 23.7k |
-| 10 | [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | +18 | 4.6k |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +988 | 122.8k |
+| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +372 | 38.4k |
+| 3 | [Kronos](https://github.com/shiyu-coder/Kronos) | +361 | 47.9k |
+| 4 | [qlib](https://github.com/microsoft/qlib) | +131 | 50.3k |
+| 5 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +95 | 64.7k |
+| 6 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +77 | 15.4k |
+| 7 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +60 | 8.5k |
+| 8 | [backtrader](https://github.com/mementum/backtrader) | +40 | 23.8k |
+| 9 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +36 | 1.8k |
+| 10 | [QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | +14 | 1.7k |
 <!-- END: leaderboard -->
 
 ## 目录
@@ -61,10 +61,12 @@ _CI 每周自动更新 · 最近一次 2026-11-10 · 周增量相对上一次快
 - [LLM 因子挖掘](#llm-因子挖掘)——用 LLM 挖 alpha
 - [决策模型 × 金融](#决策模型--金融)——市场中的类型化问题
 - [基础模型 × 金融](#基础模型--金融)——表格上下文学习与 K 线序列生成
+- [AI 金融基座](#ai-金融基座)——开源 LLM / RL / Agent 栈
 - [量化平台](#量化平台)——基础设施层
 - [Agent 计算层](#agent-计算层)——框架之下的确定性、可验证计算（生态位地图）
-- [AI 量化数据](#ai-量化数据)——兼容这些工具的数据集
+- [数据与接入](#数据与接入)——精选数据集与其背后的数据接入层
 - [风险与组合](#风险与组合)——优化、风险模型、仓位
+- [定价与衍生品](#定价与衍生品)——机构定价层
 - [论文](#论文)——AI × 金融交叉领域关键论文
 - [保险资管](#保险资管)——买方约束的来源，量化固收的最大机构场景
 - [中文生态](#中文生态)
@@ -116,11 +118,26 @@ _CI 每周自动更新 · 最近一次 2026-11-10 · 周增量相对上一次快
 
 **桥梁**：金融特征矩阵（因子×日期×标的）是表格数据。表格基础模型做上下文内预测免训练——小样本因子合成的 LightGBM 替代方案。但它们假设行独立，时序依赖违背核心假设。Kronos 从另一侧回答：不把时间压平成行，而是直接生成未来 K 线路径——生成式路线，官方微调管线就构建在 qlib 数据上。
 
+## AI 金融基座
+
+这个领域的开源底座：金融 LLM、强化学习框架、Agent 平台，AI4Finance 生态三件套。
+
+| 项目 | ★ | 提供什么 |
+|---|---:|---|
+| [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | 22k | 开源金融 LLM 与数据管线——金融大模型的开源参考栈 |
+| [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | 17k | 金融强化学习框架：市场环境、Agent 与回测一站式 |
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 8.4k | 金融分析 Agent 平台：股票研究、估值、报告生成 |
+
+**为什么先收这三个**：如果说交易 Agent 是应用层，这里就是下面的训练/框架层——FinRL 管 RL 配置、FinGPT 管领域 LLM、FinRobot 管 agentic 研究流。三家同属一个基金会且持续维护，是从 ML 转过来的工程师摩擦力最小的入口。
+
 ## 量化平台
 
 | 平台 | ★ | 角色 |
 |---|---:|---|
+| [freqtrade](https://github.com/freqtrade/freqtrade) | 57k | Crypto 交易机器人：回测、超参优化、模拟盘，最大的开放策略社区 |
 | [qlib](https://github.com/microsoft/qlib)（微软） | 50k | 统治级 AI 量化平台：数据管线、模型训练、回测、RL 支持 |
+| [vnpy](https://github.com/vnpy/vnpy) | 46k | 中国量化框架事实标准：CTP 网关、事件驱动引擎、国内期货期权接入 |
+| [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 32k | Rust 核心的高性能事件驱动交易引擎 |
 | [backtrader](https://github.com/mementum/backtrader) | 24k* | Python 回测库 |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | 事件驱动回测，Quantopian 血统 |
 
@@ -139,13 +156,27 @@ _CI 每周自动更新 · 最近一次 2026-11-10 · 周增量相对上一次快
 
 生态位判读（2026-11）：需求是真的——已有两家托管服务在按调用收费变现——但还没有第二家做"本地优先 + oracle 血统"；同时上层的 agent 框架（见[交易 Agent](#交易-agent)：TradingAgents ★121k、ai-hedge-fund ★64k、Vibe-Trading ★38k）出的数要么自实现要么靠 LLM 猜。该空档的实测证据见 TrustQuant 的[裸 LLM vs oracle 实验](https://github.com/vicfei/trustquant/tree/main/essays/llm-numbers-vs-oracle)（80 题：答出的全部误差 <1%，但 32.5% 压根没答出来——整个 token 预算烧在手算正态 CDF 上）。
 
-## AI 量化数据
+## 数据与接入
+
+**数据集**
 
 | 数据集 | 平台 | 覆盖 | 格式 |
 |---|---|---|---|
 | [qlib_csi300](https://huggingface.co/datasets/QuantaAlpha/qlib_csi300) | HF | 沪深 300 日线 | qlib 格式 |
 | [LightGBM_Alpha300](https://www.modelscope.cn/datasets/qusong0627/LightGBM_Alpha300) | ModelScope | A 股全市场（~5,500 只），2016 至今 | Parquet 按日分区 |
 | [ths-quant-factor-dictionary](https://huggingface.co/datasets/obaydata/ths-quant-factor-dictionary) | HF | 同花顺因子字典（Barra 风格 + 卖方预测） | xlsx |
+
+**接入工具**
+
+| 工具 | ★ | 提供什么 |
+|---|---:|---|
+| [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75k | 开源投资研究终端：跨资产的统一数据 API + 平台 UI |
+| [ccxt](https://github.com/ccxt/ccxt) | 45k | 100+ 加密交易所的统一 API——crypto 策略的事实接入层 |
+| [yfinance](https://github.com/ranaroussi/yfinance) | 26k | Yahoo Finance 下载器——原型阶段拿全球日线最快的方式 |
+| [akshare](https://github.com/akfamily/akshare) | 23k | 免费中国数据（A 股、宏观、期货、基金）——开源项目里用得最多的中文数据源 |
+| [tushare](https://github.com/waditu/tushare) | 15k | 中文金融数据 API，带点时（point-in-time）财务字段（token 制，部分档位收费） |
+
+**没人替你搭的那座桥**：接入已经解决（上面五个工具覆盖一切原型需求），但**点时正确性没有**——只有 tushare 显式暴露公告时点；其余工具给你的都是"今天的快照"。在数据碰回测之前，先用快照/保管纪律把它管起来（见[定价与衍生品](#定价与衍生品)，同样的病往下走一层的版本）。
 
 ## 风险与组合
 
@@ -154,6 +185,18 @@ _CI 每周自动更新 · 最近一次 2026-11-10 · 周增量相对上一次快
 | [QOBLIB](https://github.com/ZIB-AOPT/QOBLIB)（59★） | 量子优化基准套件——组合优化是其十大问题类之一（注意：量子计算，非量化金融） |
 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 经典组合优化（均值-方差、Black-Litterman、风险平价） |
 | [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | 组合风险分析与优化 |
+
+## 定价与衍生品
+
+星数在这里不再预测重要性：每家机构都靠这一层定价，读过源码的工程师却很少。
+
+| 库 | ★ | 覆盖什么 |
+|---|---:|---|
+| [QuantLib](https://github.com/lballabio/QuantLib) | 7.8k | C++ 定价与风险参考库（26 年、BSD-3、Zenodo DOI）；有 Python 等多语言绑定 |
+| [tf-quant-finance](https://github.com/google/tf-quant-finance) | 5.6k | Google 的 TensorFlow 定价/风险/校准库（GPU） |
+| [FinancePy](https://github.com/domokane/FinancePy) | 3.2k | 教科书作者（O'Kane）写的纯 Python 衍生品定价——可以读、可以学的实现 |
+
+**为什么要有这个板块**：清单上层的一切都在预测信号，而这一层在给**义务**定价。对转向买方的工程师（见[保险资管](#保险资管)），债券数学、曲线构建与衍生品定价是日常工具——且和 agent 框架不同，这里的难点是正确性，不是架构。
 
 ## 论文
 
