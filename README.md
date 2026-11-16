@@ -23,37 +23,37 @@ Different from existing lists:
 ## Leaderboard
 
 <!-- BEGIN: leaderboard -->
-_Auto-updated weekly by CI · last run 2026-11-10 · weekly Δ compares against the previous snapshot._
+_Auto-updated weekly by CI · last run 2026-11-16 · weekly Δ compares against the previous snapshot._
 
 **Top 10 by total stars**
 
 | # | Project | ★ | Weekly Δ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 121.8k | +1626 |
-| 2 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.6k | +159 |
-| 3 | [qlib](https://github.com/microsoft/qlib) | 50.2k | +225 |
-| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.5k | +1235 |
-| 5 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.0k | +453 |
-| 6 | [backtrader](https://github.com/mementum/backtrader) | 23.7k | +57 |
-| 7 | [RD-Agent](https://github.com/microsoft/RD-Agent) | 15.3k | +103 |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | 8.4k | +63 |
-| 9 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | 6.2k | +17 |
-| 10 | [thuquant/awesome-quant](https://github.com/thuquant/awesome-quant) | 5.7k | +13 |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 122.8k | +988 |
+| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.5k | — |
+| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.7k | +95 |
+| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 56.9k | — |
+| 5 | [qlib](https://github.com/microsoft/qlib) | 50.3k | +131 |
+| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.9k | +361 |
+| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.4k | — |
+| 8 | [ccxt](https://github.com/ccxt/ccxt) | 44.9k | — |
+| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.4k | +372 |
+| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.6k | — |
 
 **Top 10 by weekly gain**
 
 | # | Project | Weekly Δ | ★ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +1626 | 121.8k |
-| 2 | [Kronos](https://github.com/shiyu-coder/Kronos) | +1235 | 47.5k |
-| 3 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +453 | 38.0k |
-| 4 | [qlib](https://github.com/microsoft/qlib) | +225 | 50.2k |
-| 5 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +159 | 64.6k |
-| 6 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +103 | 15.3k |
-| 7 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +74 | 1.7k |
-| 8 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +63 | 8.4k |
-| 9 | [backtrader](https://github.com/mementum/backtrader) | +57 | 23.7k |
-| 10 | [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | +18 | 4.6k |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +988 | 122.8k |
+| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +372 | 38.4k |
+| 3 | [Kronos](https://github.com/shiyu-coder/Kronos) | +361 | 47.9k |
+| 4 | [qlib](https://github.com/microsoft/qlib) | +131 | 50.3k |
+| 5 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +95 | 64.7k |
+| 6 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +77 | 15.4k |
+| 7 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +60 | 8.5k |
+| 8 | [backtrader](https://github.com/mementum/backtrader) | +40 | 23.8k |
+| 9 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +36 | 1.8k |
+| 10 | [QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | +14 | 1.7k |
 <!-- END: leaderboard -->
 
 ## Contents
@@ -63,10 +63,12 @@ _Auto-updated weekly by CI · last run 2026-11-10 · weekly Δ compares against 
 - [Factor Discovery with AI](#factor-discovery-with-ai) — LLM-driven alpha mining
 - [Decision Models × Finance](#decision-models--finance) — typed questions in markets
 - [Foundation Models × Finance](#foundation-models--finance) — ICL for tabular data + generation for K-line sequences
+- [AI Finance Foundations](#ai-finance-foundations) — open LLM / RL / agent stacks for finance
 - [Quant Platforms](#quant-platforms) — the infrastructure layer
 - [Agent Compute Layers](#agent-compute-layers) — deterministic, verifiable math for agents (the niche map)
-- [Data for AI Quant](#data-for-ai-quant) — datasets that work with these tools
+- [Data & Access](#data--access) — curated datasets and the access layer that feeds them
 - [Risk & Portfolio](#risk--portfolio) — optimization, risk models, position sizing
+- [Pricing & Derivatives](#pricing--derivatives) — the institutional pricing layer
 - [Papers](#papers) — key papers at the AI × finance intersection
 - [Insurance Asset Management](#insurance-asset-management) — 保险资管: the buy-side domain where quant constraints come from
 - [Chinese Ecosystem](#chinese-ecosystem) — 中文资源
@@ -126,13 +128,28 @@ Foundation models pre-trained on financial data: tabular FMs predict in-context 
 
 **The bridge**: financial feature matrices (factors × dates × tickers) are tabular data. Tabular FMs do in-context prediction without training — an alternative to LightGBM for small-sample factor synthesis. But they assume iid rows, so time-series dependence violates the core assumption (see [structured-state patterns](https://github.com/vicfei/awesome-jev-prompts/blob/main/categories/structured-state-patterns.md) for when to route to which paradigm). Kronos answers from the opposite side: instead of flattening time into rows, it generates future K-line paths — the generative route, with an official finetune pipeline built on qlib data.
 
+## AI Finance Foundations
+
+Open stacks the field is built on: financial LLMs, reinforcement-learning frameworks, and agent platforms from the AI4Finance ecosystem.
+
+| Project | ★ | What it provides |
+|---|---:|---|
+| [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | 22k | Open financial LLMs and data pipelines — the reference open-source fin-LLM stack |
+| [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | 17k | Financial reinforcement learning framework: market environments, agents and backtests in one place |
+| [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | 8.4k | AI agent platform for financial analysis: equity research, valuation, report generation |
+
+**Why these first**: if trading agents are the application layer, this is the training/framework layer underneath — FinRL for RL-based allocation, FinGPT for domain LLMs, FinRobot for agentic research workflows. All three are actively maintained under one foundation, which makes them the lowest-friction entry point for engineers coming from ML.
+
 ## Quant Platforms
 
 The infrastructure layer every AI-quant project builds on.
 
 | Platform | ★ | Role |
 |---|---:|---|
+| [freqtrade](https://github.com/freqtrade/freqtrade) | 57k | Crypto trading bot: backtesting, hyperopt, dry-run, and the largest open strategy community |
 | [qlib](https://github.com/microsoft/qlib) (Microsoft) | 50k | The dominant AI-quant platform: data pipeline, model training, backtesting, RL support |
+| [vnpy](https://github.com/vnpy/vnpy) | 46k | China's de-facto quant trading framework: CTP gateway, event-driven engine, domestic futures/options connectivity |
+| [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 32k | High-performance event-driven trading engine with a Rust core |
 | [backtrader](https://github.com/mementum/backtrader) | 24k* | Python backtesting library |
 | [zipline-reloaded](https://github.com/stefan-jansen/zipline-reloaded) | 2k* | Event-driven backtesting, Quantopian heritage |
 
@@ -151,13 +168,27 @@ The niche under the frameworks: deterministic, verifiable math that agents call 
 
 Read of the niche (2026-11): the demand is real — two hosted services already monetize it — but nobody else is local-first with oracle lineage; meanwhile the agent frameworks above ([Trading Agents](#trading-agents): TradingAgents ★121k, ai-hedge-fund ★64k, Vibe-Trading ★38k) ship self-implemented or LLM-guessed numbers. For measured evidence of that gap, see TrustQuant's [raw-LLM vs oracle experiment](https://github.com/vicfei/trustquant/tree/main/essays/llm-numbers-vs-oracle) (80 questions: all answered prices within 1%, but 32.5% of answers never arrived — the entire token budget burned hand-computing the normal CDF).
 
-## Data for AI Quant
+## Data & Access
+
+**Datasets**
 
 | Dataset | Platform | Coverage | Format |
 |---|---|---|---|
 | [qlib_csi300](https://huggingface.co/datasets/QuantaAlpha/qlib_csi300) | HF | CSI 300 daily bars | qlib format |
 | [LightGBM_Alpha300](https://www.modelscope.cn/datasets/qusong0627/LightGBM_Alpha300) | ModelScope | Full A-share (~5,500 tickers), 2016–now, 3 adjustment modes + fundamentals | Parquet by date |
 | [ths-quant-factor-dictionary](https://huggingface.co/datasets/obaydata/ths-quant-factor-dictionary) | HF | THS (同花顺) factor dictionaries: Barra-style + sell-side forecasts | xlsx |
+
+**Access tools**
+
+| Tool | ★ | What it gives you |
+|---|---:|---|
+| [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75k | Open-source investment research terminal: unified data APIs across assets, plus a platform UI |
+| [ccxt](https://github.com/ccxt/ccxt) | 45k | One API for 100+ crypto exchanges — the de-facto connectivity layer for crypto strategies |
+| [yfinance](https://github.com/ranaroussi/yfinance) | 26k | Yahoo Finance downloader — the fastest way to global daily bars for prototypes |
+| [akshare](https://github.com/akfamily/akshare) | 23k | Free Chinese market data (A-shares, macro, futures, funds) — the most-used CN source in open-source projects |
+| [tushare](https://github.com/waditu/tushare) | 15k | Chinese financial data API with point-in-time fundamentals (token-based; some tiers paid) |
+
+**The gap nobody bridges for you**: access is solved (five tools above cover anything you'd prototype with), but point-in-time correctness is not — only tushare exposes announcement timing explicitly; everything else hands you today's snapshot of yesterday. Pair these with a custody/snapshot discipline before anything goes near a backtest (see [Pricing & Derivatives](#pricing--derivatives) for the same problem one layer down).
 
 ## Risk & Portfolio
 
@@ -166,6 +197,18 @@ Read of the niche (2026-11): the demand is real — two hosted services already 
 | [QOBLIB](https://github.com/ZIB-AOPT/QOBLIB) (59★) | Quantum optimization benchmark suite — portfolio optimization is one of ten problem classes (note: quantum computing, not quant finance) |
 | [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | Classical portfolio optimization (mean-variance, Black-Litterman, risk parity) |
 | [riskfolio-lib](https://github.com/dcajasn/Riskfolio-Lib) | Portfolio risk analysis and optimization |
+
+## Pricing & Derivatives
+
+The layer where star counts stop predicting importance: every institution prices through these, few engineers have read them.
+
+| Library | ★ | What it covers |
+|---|---:|---|
+| [QuantLib](https://github.com/lballabio/QuantLib) | 7.8k | The C++ reference library for pricing and risk (26 years, BSD-3, Zenodo DOI); Python and other language bindings |
+| [tf-quant-finance](https://github.com/google/tf-quant-finance) | 5.6k | Google's TensorFlow library for pricing, risk and calibration on GPU |
+| [FinancePy](https://github.com/domokane/FinancePy) | 3.2k | Pure-Python derivatives pricing by a textbook author (O'Kane) — implementations you can read and learn from |
+
+**Why this section exists**: everything upstream in this list predicts signals; this layer prices *obligations*. For engineers moving into buy-side work (see [Insurance Asset Management](#insurance-asset-management)), bond math, curve construction and derivative pricing are the daily tools — and unlike agent frameworks, the hard part is correctness, not architecture.
 
 ## Papers
 
