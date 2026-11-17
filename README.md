@@ -23,37 +23,37 @@ Different from existing lists:
 ## Leaderboard
 
 <!-- BEGIN: leaderboard -->
-_Auto-updated weekly by CI · last run 2026-11-16 · weekly Δ compares against the previous snapshot._
+_Auto-updated weekly by CI · last run 2026-11-17 · weekly Δ compares against the previous snapshot._
 
 **Top 10 by total stars**
 
 | # | Project | ★ | Weekly Δ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 122.8k | +988 |
-| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.5k | — |
-| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.7k | +95 |
-| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 56.9k | — |
-| 5 | [qlib](https://github.com/microsoft/qlib) | 50.3k | +131 |
-| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.9k | +361 |
-| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.4k | — |
-| 8 | [ccxt](https://github.com/ccxt/ccxt) | 44.9k | — |
-| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.4k | +372 |
-| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.6k | — |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 122.9k | +133 |
+| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.5k | +30 |
+| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.7k | +20 |
+| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 57.0k | +38 |
+| 5 | [qlib](https://github.com/microsoft/qlib) | 50.4k | +30 |
+| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.9k | +47 |
+| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.4k | +7 |
+| 8 | [ccxt](https://github.com/ccxt/ccxt) | 44.9k | +9 |
+| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.4k | +63 |
+| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.6k | +42 |
 
 **Top 10 by weekly gain**
 
 | # | Project | Weekly Δ | ★ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +988 | 122.8k |
-| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +372 | 38.4k |
-| 3 | [Kronos](https://github.com/shiyu-coder/Kronos) | +361 | 47.9k |
-| 4 | [qlib](https://github.com/microsoft/qlib) | +131 | 50.3k |
-| 5 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +95 | 64.7k |
-| 6 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +77 | 15.4k |
-| 7 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +60 | 8.5k |
-| 8 | [backtrader](https://github.com/mementum/backtrader) | +40 | 23.8k |
-| 9 | [StartLux](https://github.com/StartLuxLabs/Startlux-Decision) | +36 | 1.8k |
-| 10 | [QuantaAlpha](https://github.com/QuantaAlpha/QuantaAlpha) | +14 | 1.7k |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +133 | 122.9k |
+| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +63 | 38.4k |
+| 3 | [Kronos](https://github.com/shiyu-coder/Kronos) | +47 | 47.9k |
+| 4 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | +42 | 31.6k |
+| 5 | [freqtrade](https://github.com/freqtrade/freqtrade) | +38 | 57.0k |
+| 6 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | +30 | 75.5k |
+| 7 | [qlib](https://github.com/microsoft/qlib) | +30 | 50.4k |
+| 8 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +20 | 64.7k |
+| 9 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +14 | 15.4k |
+| 10 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +14 | 8.5k |
 <!-- END: leaderboard -->
 
 ## Contents
