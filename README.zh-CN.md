@@ -21,37 +21,37 @@
 ## 排行榜
 
 <!-- BEGIN: leaderboard -->
-_CI 每周自动更新 · 最近一次 2026-11-17 · 周增量相对上一次快照计算_
+_CI 每周自动更新 · 最近一次 2026-11-24 · 周增量相对上一次快照计算_
 
 **总星数 Top 10**
 
 | # | 项目 | ★ | 周增量 |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 122.9k | +133 |
-| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.5k | +30 |
-| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.7k | +20 |
-| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 57.0k | +38 |
-| 5 | [qlib](https://github.com/microsoft/qlib) | 50.4k | +30 |
-| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 47.9k | +47 |
-| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.4k | +7 |
-| 8 | [ccxt](https://github.com/ccxt/ccxt) | 44.9k | +9 |
-| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.4k | +63 |
-| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.6k | +42 |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 123.7k | +746 |
+| 2 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | 75.7k | +204 |
+| 3 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | 64.8k | +112 |
+| 4 | [freqtrade](https://github.com/freqtrade/freqtrade) | 57.2k | +245 |
+| 5 | [qlib](https://github.com/microsoft/qlib) | 50.5k | +192 |
+| 6 | [Kronos](https://github.com/shiyu-coder/Kronos) | 48.1k | +213 |
+| 7 | [vnpy](https://github.com/vnpy/vnpy) | 46.5k | +85 |
+| 8 | [ccxt](https://github.com/ccxt/ccxt) | 45.0k | +74 |
+| 9 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 38.8k | +341 |
+| 10 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | 31.8k | +160 |
 
 **周增速 Top 10**
 
 | # | 项目 | 周增量 | ★ |
 |---|---|---:|---:|
-| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +133 | 122.9k |
-| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +63 | 38.4k |
-| 3 | [Kronos](https://github.com/shiyu-coder/Kronos) | +47 | 47.9k |
-| 4 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | +42 | 31.6k |
-| 5 | [freqtrade](https://github.com/freqtrade/freqtrade) | +38 | 57.0k |
-| 6 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | +30 | 75.5k |
-| 7 | [qlib](https://github.com/microsoft/qlib) | +30 | 50.4k |
-| 8 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +20 | 64.7k |
-| 9 | [RD-Agent](https://github.com/microsoft/RD-Agent) | +14 | 15.4k |
-| 10 | [TabPFN](https://github.com/PriorLabs/TabPFN) | +14 | 8.5k |
+| 1 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | +746 | 123.7k |
+| 2 | [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | +341 | 38.8k |
+| 3 | [freqtrade](https://github.com/freqtrade/freqtrade) | +245 | 57.2k |
+| 4 | [Kronos](https://github.com/shiyu-coder/Kronos) | +213 | 48.1k |
+| 5 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | +204 | 75.7k |
+| 6 | [qlib](https://github.com/microsoft/qlib) | +192 | 50.5k |
+| 7 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | +160 | 31.8k |
+| 8 | [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | +117 | 21.7k |
+| 9 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | +112 | 64.8k |
+| 10 | [akshare](https://github.com/akfamily/akshare) | +90 | 23.5k |
 <!-- END: leaderboard -->
 
 ## 目录
